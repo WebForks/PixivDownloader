@@ -676,7 +676,7 @@ def main(args):
     global DEBUG_MODE
     DEBUG_MODE = args.debug
 
-    if args.tag is not None or args.url.startswith("https://www.pixiv.net/en/tags/"):
+    if args.tag is not None or args.url.startswith("https://www.pixiv.net/en/tags/") or args.config is not None:
         print('Downloading tags...')
         download_tags(args.url, args.tag, args.sort_order, args.page_start, args.page_end, args.s_mode, args.type, args.ai_type, args.resolution,
                       args.custom_resolution, args.ratio, args.period, args.bookmarks, args.file_location, args.cookies_psshid, args.debug, args.link)
