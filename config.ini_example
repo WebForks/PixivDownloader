@@ -1,0 +1,17 @@
+[DEFAULT]
+tag = 風景画
+sort_order = popular_all
+page_start = 1
+page_end = 2
+s_mode = perfect_match
+type = all
+ai_type = display_ai
+resolution = all
+#custom_resolution = optional use either resolution or custom_resolution
+ratio = all
+period = 
+bookmarks = all
+file_location = ./pixiv
+cookies_psshid =
+debug = False 
+link = False
